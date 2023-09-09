@@ -10,6 +10,7 @@ public class Flipkart {
 	  //System.setProperty("webdriver.chrome.driver","E:\\Bhagyashri\\Testing\\chromedriver.exe");
 	  WebDriver driver = new ChromeDriver();
 	  driver.get("https://www.flipkart.com/");
+	  System.out.println("change here on Flipkart");
 	  Thread.sleep(2000);
 	  driver.quit();
   }
